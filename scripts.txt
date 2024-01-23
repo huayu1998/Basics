@@ -1,6 +1,0 @@
-CS6704 SE Basics Workshop - APIs Requirements
-Author: Huayu Liang
-
-The script "get_repo_info.sh" is used to retrieve information about a specific GitHub repository (huayu1998/Basics) and saves it as a JSON file named "repo_info_huayu1998_Basics.json".
-
-The script "get_repo_issues.sh" is used to retrieves a list of issues from a GitHub repository (huayu1998/Basics) and saves it as a JSON file named "repo_issues_huayu1998_Basics.json".
