@@ -2,4 +2,8 @@
 ## Author: Huayu Liang
 Hello GitHub! 
 
-Update: Tue Jan 23 15:44:55 EST 2024
+Stand-up Meeting Member(s):
+1. 
+2. 
+
+Update: Tue Jan 23 17:10:46 EST 2024
