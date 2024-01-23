@@ -3,6 +3,7 @@
 Hello GitHub! 
 
 Stand-up Meeting Member(s):
+
 1. 
 2. 
 
