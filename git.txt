@@ -1,0 +1,72 @@
+CS6704 Git Version Control Assignment 
+Author: Huayu Liang
+
+1) What is the name of the author of the last commit on this version of git?
+
+ANSWER: The name of the author is Junio C Hamano based on the following output messages: 
+
+Author: Junio C Hamano <gitster@pobox.com>
+Date:   Mon Mar 15 11:51:51 2021 -0700
+
+    Git 2.31
+    
+    Signed-off-by: Junio C Hamano <gitster@pobox.com>
+
+
+2) How many objects share a partial match with the hash '8348'? 
+
+ANSWER: The number of objects share a partial match with the hash '8348' is 12 (3 blobs, 4 trees, and 5 commits).
+
+
+3) How many blobs, trees, and commits are there?
+
+ANSWER: There are 3 blobs, 4 trees, and 5 commits based on the following outputs:
+
+hint: The candidates are:
+hint:   834836bd3f commit 2008-05-25 - Merge branch 'ap/svn'
+hint:   834845142d commit 2021-02-28 - l10n: de.po: Update German translation for Git v2.31.0
+hint:   834876630b commit 2019-04-09 - get_commit_tree(): return NULL for broken tree
+hint:   83489a5b20 commit 2022-08-12 - Merge branch 'ab/plug-revisions-leak'
+hint:   8348bf1b69 commit 2015-08-03 - Merge branch 'as/sparse-checkout-removal'
+hint:   83484f0d5d tree
+hint:   8348546ef1 tree
+hint:   8348661d6d tree
+hint:   834868915e tree
+hint:   83484ad502 blob
+hint:   8348b6fb57 blob
+hint:   8348e3ae7d blob
+
+4) In your own words, describe what this commit is doing? 
+(git cat-file -p 834845)
+
+ANSWER: The specific commit was updating the German translation (de.po) for Git version v2.31.0, and the changes had been reviewed by Ralf Thielow and Phillip Szelat, and signed off by Matthias Rüster based on the following output messages:
+
+tree d489651b324bb6f36a609c5a5341f07c567a145d
+parent b0adcc311bab2d91337ac70c2b19cde11a1ad441
+author Matthias Rüster <matthias.ruester@gmail.com> 1614523223 +0100
+committer Matthias Rüster <matthias.ruester@gmail.com> 1615229373 +0100
+
+l10n: de.po: Update German translation for Git v2.31.0
+
+Reviewed-by: Ralf Thielow <ralf.thielow@gmail.com>
+Reviewed-by: Phillip Szelat <phillip.szelat@gmail.com>
+Signed-off-by: Matthias Rüster <matthias.ruester@gmail.com>
+
+5) What is the name of the first file listed that changed between versions 2.31.0 and 2.31.1?
+
+ANSWER: The name of the file is Documentation/RelNotes/2.31.1.txt (using: git diff --name-only v2.31.0 v2.31.1 | head -1 command line)
+
+6) How many total branches are there for the git repository?
+
+ANSWER: The total number of branches is 8 based on the following outputs (using: git branch -a | wc -l):
+
+* master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/jch
+  remotes/origin/maint
+  remotes/origin/master
+  remotes/origin/next
+  remotes/origin/seen
+  remotes/origin/todo
+
+
